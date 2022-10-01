@@ -1,0 +1,27 @@
+{
+
+    "manifest_version": 2,
+    "name": "CrossFire Web Extension",
+    "version": "1.0",
+    "description": "Enhancements for your CrossFire West Web experience",
+
+    "icons": {
+      "48": "icons/icon-48.png",
+      "96": "icons/icon-96.png"
+    },
+  
+    "permissions": [
+        "tabs",
+        "cookies",
+        "webRequest",
+        "storage",
+        "*://*.z8games.com"
+    ],
+  
+    "background": {
+      "scripts": [
+        "background_scripts/background.js",
+        "background_scripts/install.js"
+      ]
+    }
+  }

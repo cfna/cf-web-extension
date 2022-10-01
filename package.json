@@ -1,0 +1,13 @@
+{
+  "name": "cf-web-extension",
+  "version": "1.0.0",
+  "description": "> Firefox Web Extension for CrossFire West",
+  "private": true,
+  "scripts": {
+    "debug": "web-ext run --source-dir ./extension",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "web-ext": "^7.2.0"
+  }
+}
